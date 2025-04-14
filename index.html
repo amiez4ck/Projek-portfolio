@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Produk Syahmi</title>
+        <link rel="Stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/aos@2.3/dist/aos.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/your_kit_id.js" crossorigin="anonymous"></sricpt>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href =#features">Ciri</a></li>
+                    <li><a href =#produk">Produk</a></li>
+                    <li><a href =#contact">Hubungi</a></li>
+                </ul>
+            </div>
+        </nav>
+        <header class="hero">
+            <div class="container">
+                <h1>Produk Digital Primium</h1>
+                <p>Tingkatkan Kreativiti Anda Dengan Alat Digital Dari Saya</p>
+                <a href="#features" class="btn-cta">Dapatkan Sekarang</a>
+            </div>
+        </header>
+        
+       <section id="features" class="features-section" data-aos="fade-up">
+           <div class="container">
+               <h2>Ciri - Ciri Produk</h2>
+               <div class="features">
+                   <div class="feature-card" data-aos="zoom-in">
+                       <h3>Design Produk</h3>
+                       <p>Direka Dengan Gaya Modern & Kemas Untuk Pengguna</p>
+           </div>
+                <div class="feature-card" data-aos="zoom-out">
+                    <h3>Mudah Untuk Digunakan</h3>
+                    <p>Antaramuka Muka Mesra Pengguna Walaupun Seorang Pemula</p>
+                </div>
+                   <div class="feature-card">
+                       <h3>Berprestasi Tinggi</h3>
+                       <p>Dibina Dengan Teknologi Terkini Dan Responsif Sepenuhnya</p>
+                   </div>
+                   </div>
+               </div>
+       </secton> 
+
+        <section class="product-image">
+            <div class="container">
+                <img src="https://images.unsplash.com/photo-1581093588401-4f7c2f1d3f3b" alt="Gambar Aplikasi Produktivitas" style="width:100%; border-radius:10px;">
+            </div>
+        </section>
+
+        <section class="cta-section" data-aos="fade-up">
+            <div class="container">
+                <h2>Sedia Untuk Mencuba</h2>
+                <a href="#" class="btn-cta" onclick="alert('Terima Kasih Kerana Berminat!')">Beli Sekarang</a>
+            </div>
+        </section>
+
+           <section id="contact" class="cta-section">
+               <div class="container">
+                   <h2>Berminat? Dapatkan Info Dengan Lebih Lanjut</h2>
+                   <form>
+                       <input type="email" placeholder="Masukkan Email Anda" required>
+                       <button type="submit">Langgan</button>
+                   </form>
+               </div>
+           </section>
+
+        <footer>
+            <p>&copy; 2025 SyahmiZakuan. Semua Hak Adalah Persendirian Dan Dilindungi.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1000,
+                once: true
+                });
+        </script>
+
+        <button id="back-to-top" onclick="scrollToTop()" title="Kembali ke Atas">↑</button>
+
+        <script>
+
+            function scrollToTop() {
+                window.scrollTo({ top: 10, behavior: 'smooth' });
+                }
+        </script>
+
+        <script>
+            window.addEventListener('scroll', function(){
+                const btn = document.getElementById('back-to-top');
+                if (window.pageYOffset > 300){
+                    btn.style.display = 'block';
+                    } else {
+                    btn.style.display = 'none';
+                    }
+                });
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
